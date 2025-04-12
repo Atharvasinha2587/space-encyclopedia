@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth - Planetary Encyclopedia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(145deg, #0f0c29, #302b63, #24243e);
+            color: #f0f0f0;
+            scroll-behavior: smooth;
+        }
+        header {
+            padding: 30px;
+            background: rgba(15, 15, 15, 0.95);
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+            text-align: center;
+        }
+        h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 3.5em;
+            margin: 0;
+            color: #00ffff;
+        }
+        nav a {
+            color: #00feba;
+            text-decoration: none;
+            margin: 20px;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffffff;
+            text-shadow: 0 0 5px #00ffff;
+        }
+        .content {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .content h2 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 3em;
+            margin-bottom: 30px;
+            color: #00ffff;
+        }
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #e0e0e0;
+        }
+        .planet-img {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 30px;
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #fff;
+            background: #00feba;
+            border: none;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+        .cta-button:hover {
+            background: #00c7a5;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Earth - Planetary Encyclopedia</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h2>Earth: The Blue Planet</h2>
+        <img class="planet-img" src="https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg" alt="Earth Planet">
+        <p>Earth is the only known planet to support life. It has a diverse range of ecosystems, from oceans and forests to deserts and mountains. The surface of Earth is 71% water, and it has a protective atmosphere that keeps temperatures stable and shields life from harmful solar radiation.</p>
+        <p>Earth’s atmosphere is composed of nitrogen, oxygen, and trace gases that create a perfect balance for life to thrive. The planet's magnetic field protects it from solar winds, and its unique position in the solar system, at just the right distance from the Sun, ensures that conditions are just right for life to flourish.</p>
+        <a class="cta-button" href="index.html">Back to Home</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Planetary Encyclopedia. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercury - Planetary Encyclopedia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(145deg, #0f0c29, #302b63, #24243e);
+            color: #f0f0f0;
+            scroll-behavior: smooth;
+        }
+        header {
+            padding: 30px;
+            background: rgba(15, 15, 15, 0.95);
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+            text-align: center;
+        }
+        h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 3.5em;
+            margin: 0;
+            color: #00ffff;
+        }
+        nav a {
+            color: #00feba;
+            text-decoration: none;
+            margin: 20px;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffffff;
+            text-shadow: 0 0 5px #00ffff;
+        }
+        .content {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .content h2 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 3em;
+            margin-bottom: 30px;
+            color: #00ffff;
+        }
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #e0e0e0;
+        }
+        .planet-img {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 30px;
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #fff;
+            background: #00feba;
+            border: none;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+        .cta-button:hover {
+            background: #00c7a5;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mercury - Planetary Encyclopedia</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h2>Mercury: The Smallest Planet</h2>
+        <img class="planet-img" src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Mercury_in_true_color.jpg" alt="Mercury Planet">
+        <p>Mercury is the closest planet to the Sun, and it’s also the smallest in the Solar System. Due to its small size and proximity to the Sun, Mercury has extreme temperatures. The surface can reach up to 800°F (427°C) during the day and drop as low as -330°F (-201°C) at night.</p>
+        <p>Mercury has a heavily cratered surface, similar to the Moon, and doesn’t have a substantial atmosphere to protect it from meteoroids. This is why the planet has so many impact craters. It takes 88 Earth days to complete one orbit around the Sun.</p>
+        <a class="cta-button" href="index.html">Back to Home</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Planetary Encyclopedia. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

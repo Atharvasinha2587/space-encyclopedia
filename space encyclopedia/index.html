@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planetary Encyclopedia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(145deg, #0f0c29, #302b63, #24243e);
+            color: #f0f0f0;
+            scroll-behavior: smooth;
+        }
+        header {
+            padding: 30px;
+            background: rgba(15, 15, 15, 0.95);
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+            text-align: center;
+        }
+        h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 3.5em;
+            margin: 0;
+            color: #00ffff;
+        }
+        nav {
+            margin: 25px 0;
+        }
+        nav a {
+            color: #00feba;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffffff;
+            text-shadow: 0 0 5px #00ffff;
+        }
+        .section {
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .section h2 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 2.8em;
+            margin-bottom: 20px;
+            color: #00ffff;
+        }
+        .section p {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #e0e0e0;
+        }
+        .planets-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            padding: 60px 20px;
+        }
+        .planet-card {
+            background: rgba(255, 255, 255, 0.06);
+            border-radius: 20px;
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.1);
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.4s ease, background 0.4s ease;
+        }
+        .planet-card:hover {
+            transform: scale(1.05);
+            background: rgba(255, 255, 255, 0.1);
+        }
+        .planet-card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+        }
+        .planet-card h3 {
+            font-size: 1.5em;
+            margin: 10px 0;
+            color: #00ffff;
+        }
+        .planet-card p {
+            font-size: 1em;
+            color: #e0e0e0;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.9);
+            color: #aaa;
+            font-size: 0.95em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Planetary Encyclopedia</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#planets">Planets</a>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h2>Welcome to the Planetary Encyclopedia</h2>
+        <p>Explore the wonders of our solar system! Dive deep into each planet's characteristics, fun facts, and cosmic curiosities. Discover the fascinating world of Mercury, the mysteries of Neptune, and everything in between — all in one place.</p>
+    </section>
+
+    <div id="planets" class="planets-section">
+        <div class="planet-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Mercury_in_true_color.jpg" alt="Mercury">
+            <h3>Mercury</h3>
+            <p>The smallest planet closest to the Sun, known for its extreme temperatures and cratered surface.</p>
+            <a href="mercury.html">Learn More</a>
+        </div>
+        <div class="planet-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus-real_color.jpg" alt="Venus">
+            <h3>Venus</h3>
+            <p>Earth’s sister planet with a toxic atmosphere and surface temperatures hotter than Mercury.</p>
+            <a href="venus.html">Learn More</a>
+        </div>
+        <div class="planet-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg" alt="Earth">
+            <h3>Earth</h3>
+            <p>The only known planet with life, covered mostly in water and protected by a robust atmosphere.</p>
+            <a href="earth.html">Learn More</a>
+        </div>
+        <div class="planet-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg" alt="Mars">
+            <h3>Mars</h3>
+            <p>The Red Planet, home to the tallest volcano and deepest canyon in the solar system.</p>
+            <a href="mars.html">Learn More</a>
+        </div>
+        <div class="planet-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter.jpg" alt="Jupiter">
+            <h3>Jupiter</h3>
+            <p>The gas giant with a raging storm — the Great Red Spot — and dozens of moons.</p>
+            <a href="jupiter.html">Learn More</a>
+        </div>
+        <div class="planet-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg" alt="Saturn">
+            <h3>Saturn</h3>
+            <p>Known for its magnificent rings, Saturn is a low-density gas giant with over 80 moons.</p>
+            <a href="saturn.html">Learn More</a>
+        </div>
+        <div class="planet-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg" alt="Uranus">
+            <h3>Uranus</h3>
+            <p>The tilted ice giant that spins on its side, giving it unique seasons and an icy blue hue.</p>
+            <a href="uranus.html">Learn More</a>
+        </div>
+        <div class="planet-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Neptune_Full.jpg" alt="Neptune">
+            <h3>Neptune</h3>
+            <p>The most distant planet with supersonic winds and a mysterious dark storm.</p>
+            <a href="neptune.html">Learn More</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Planetary Encyclopedia. All rights reserved.</p>
+    </footer>
+</body>
+</html>
